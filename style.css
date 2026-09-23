@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(219, 50, 90);
+    color: white;
+    font-family: "Comic Sans MS", cursive;
+}
+
+#limbs {
+    background-color: aquamarine;
+    color: azure;
+    font-size: 200px;
+    padding: 80px;
+}
+
+.ag_robot {
+    background-color: yellow;
+    color: navajowhite;
+    font-size: 25px;
+    border: 15px dashed black;
+    margin: 50px;
+}
+
+image {
+    width: 500px;
+    height: 30px;
+}
+
+a[href*="frhsd.com"] {
+    color: limegreen;
+}
+
+ul > li:first-child {
+    color: fuchsia;
+}
+
+a:visited {
+    color: beige;
+}
+
+li:hover {
+    background-color: navy;
+}
+
+div {
+    li {
+        font-style: italic;
+        font-weight: bold;
+        overflow: scroll;
+    }
+}
+
+li + li {
+    text-indent: -9999px;
+}
