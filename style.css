@@ -1,7 +1,7 @@
 body {
-    background-color: rgb(219, 50, 90);
+    background-color: #1a1c1d;
     color: white;
-    font-family: "Comic Sans MS", cursive;
+    font-family: "Rockwell", serif;
 }
 
 #limbs {
@@ -50,4 +50,34 @@ div {
 
 li + li {
     text-indent: -9999px;
+}
+
+ol {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#\31 1ashleycourt {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto auto;
+    gap: 12px;
+
+    img {
+        grid-column: span 3;
+        grid-row: span 3;
+        height: 100%;
+        width: 100%;
+    }
+
+    p {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    a {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
 }

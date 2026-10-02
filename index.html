@@ -4,22 +4,37 @@
     <meta charset="UTF-8">
     <title>First Website</title>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
 </head>
-<body>
+<body onload="loading()">
     <p>Hello World!</p>
     <div>
     <ol>
-        <li>Work out</li>
-        <li class="ag_robot">Sleep</li>
+        <li>
+            Work out
+            <button id="local" onclick="add(this);">0</button>
+            <button id="session" onclick="add(this);">0</button>
+        </li>
+        <li class="ag_robot">   Sleep</li>
         <li class="ag_robot">Eat</li>
     </ol>
     <h3>3 Fun Facts</h3>
     <ul>
-        <li class="ag_robot">I wish I was 6'4</li>
+        <li class="ag_robot">
+            <input type="text"/>
+            I wish I was 6'4
+            <button onclick="clicked();">button</button>
+        </li>
         <li>I am not bald</li>
         <li id="limbs">I like having limbs</li>
     </ul>
     </div>
     <a href="https://frhsd.com">frhsd</a>
+    <div id="11ashleycourt">
+        <img src="https://cyberacad.org/zain-profile.jpg">
+        <p>Two of us, one class period, one plan.</p>
+        <a href="#limbs">internal link</a>
+        <a href="https://amergommaland.com">external link</a>
+    </div>
 </body>
 </html>
